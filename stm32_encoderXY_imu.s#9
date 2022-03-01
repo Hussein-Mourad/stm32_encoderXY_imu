@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1634,114 +1634,6 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="8.509" y1="-2.921" x2="9.271" y2="-1.905" layer="21"/>
 <rectangle x1="11.049" y1="-2.921" x2="11.811" y2="-1.905" layer="21"/>
 </package>
-<package name="1X06" urn="urn:adsk.eagle:footprint:22361/1">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06/90" urn="urn:adsk.eagle:footprint:22362/1">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-7.62" y1="-1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="6.985" x2="-6.35" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="6.985" x2="6.35" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-8.255" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="9.525" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-6.731" y1="0.635" x2="-5.969" y2="1.143" layer="21"/>
-<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
-<rectangle x1="5.969" y1="0.635" x2="6.731" y2="1.143" layer="21"/>
-<rectangle x1="-6.731" y1="-2.921" x2="-5.969" y2="-1.905" layer="21"/>
-<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
-<rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="1X10" urn="urn:adsk.eagle:package:22406/2" type="model">
@@ -1754,18 +1646,6 @@ DIN A4, landscape with location and doc. field</description>
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="1X10/90"/>
-</packageinstances>
-</package3d>
-<package3d name="1X06" urn="urn:adsk.eagle:package:22472/2" type="model">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X06"/>
-</packageinstances>
-</package3d>
-<package3d name="1X06/90" urn="urn:adsk.eagle:package:22475/2" type="model">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X06/90"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1787,20 +1667,6 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="8" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="9" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="10" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-<symbol name="PINHD6-1">
-<wire x1="-6.35" y1="-7.62" x2="1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="10.16" x2="-6.35" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-6.35" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1856,46 +1722,76 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X6" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+</devicesets>
+</library>
+<library name="HusseinKassem_LIB">
+<packages>
+<package name="IMU-BNO055">
+<pad name="VIN" x="-5.969" y="-6.604" drill="0.65" diameter="1.6764"/>
+<pad name="3V3" x="-3.429" y="-6.604" drill="0.65" diameter="1.6764"/>
+<pad name="GND" x="-0.889" y="-6.604" drill="0.65" diameter="1.6764"/>
+<pad name="SDA" x="1.651" y="-6.604" drill="0.65" diameter="1.6764"/>
+<pad name="SCL" x="4.191" y="-6.604" drill="0.65" diameter="1.6764"/>
+<pad name="RST" x="6.731" y="-6.604" drill="0.65" diameter="1.6764"/>
+<pad name="PS0" x="-3.429" y="11.176" drill="0.65" diameter="1.6764"/>
+<pad name="PS1" x="-0.889" y="11.176" drill="0.65" diameter="1.6764"/>
+<pad name="INT" x="1.651" y="11.176" drill="0.65" diameter="1.6764"/>
+<pad name="ADR" x="4.191" y="11.176" drill="0.65" diameter="1.6764"/>
+<text x="-11.43" y="5.715" size="1.4224" layer="21" rot="R270">BNO055</text>
+<wire x1="-10.48" y1="12.38" x2="11.11" y2="12.38" width="0.2" layer="21"/>
+<wire x1="13.65" y1="9.84" x2="11.11" y2="12.38" width="0.2" layer="21" curve="90"/>
+<wire x1="13.65" y1="9.84" x2="13.65" y2="-5.4" width="0.2" layer="21"/>
+<wire x1="11.11" y1="-7.94" x2="13.65" y2="-5.4" width="0.2" layer="21" curve="90"/>
+<wire x1="11.11" y1="-7.94" x2="-10.48" y2="-7.94" width="0.2" layer="21"/>
+<wire x1="-13.02" y1="-5.4" x2="-10.48" y2="-7.94" width="0.2" layer="21" curve="90"/>
+<wire x1="-13.02" y1="-5.4" x2="-13.02" y2="9.84" width="0.2" layer="21"/>
+<wire x1="-10.48" y1="12.38" x2="-13.02" y2="9.84" width="0.2" layer="21" curve="90"/>
+<circle x="-10.541" y="-5.334" radius="2.409653125" width="0.254" layer="21"/>
+<circle x="11.049" y="-5.334" radius="2.53045625" width="0.254" layer="21"/>
+<circle x="11.049" y="9.906" radius="2.452775" width="0.254" layer="21"/>
+<circle x="-10.541" y="9.906" radius="2.409653125" width="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="IMU-BNO055">
+<wire x1="8.89" y1="-10.16" x2="8.89" y2="10.16" width="0.254" layer="94"/>
+<wire x1="8.89" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="8.89" y2="-10.16" width="0.254" layer="94"/>
+<pin name="VIN" x="-15.24" y="6.35" length="middle"/>
+<pin name="3V3" x="-15.24" y="3.81" length="middle"/>
+<pin name="GND" x="-15.24" y="1.27" length="middle"/>
+<pin name="SDA" x="-15.24" y="-1.27" length="middle"/>
+<pin name="SCL" x="-15.24" y="-3.81" length="middle"/>
+<pin name="RST" x="-15.24" y="-6.35" length="middle"/>
+<pin name="PS0" x="13.97" y="3.81" length="middle" rot="R180"/>
+<pin name="PS1" x="13.97" y="1.27" length="middle" rot="R180"/>
+<pin name="INT" x="13.97" y="-1.27" length="middle" rot="R180"/>
+<pin name="ADR" x="13.97" y="-3.81" length="middle" rot="R180"/>
+<text x="-5.08" y="11.43" size="1.27" layer="95">IMU_BNO055</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IMU-BNO055">
 <gates>
-<gate name="A" symbol="PINHD6-1" x="0" y="-2.54"/>
+<gate name="G$1" symbol="IMU-BNO055" x="-7.62" y="-10.16"/>
 </gates>
 <devices>
-<device name="" package="1X06">
+<device name="" package="IMU-BNO055">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="ADR" pad="ADR"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="INT" pad="INT"/>
+<connect gate="G$1" pin="PS0" pad="PS0"/>
+<connect gate="G$1" pin="PS1" pad="PS1"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22472/2"/>
-</package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="79" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="/90" package="1X06/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22475/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="10" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1931,7 +1827,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="JP2" library="MIA_LIBRARY-2-2-2" deviceset="PINHD-1X20" device="" package3d_urn="urn:adsk.eagle:package:22441/2"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="IMU2" library="MIA-Training" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
-<part name="IMU3" library="MIA-Training" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="U$1" library="HusseinKassem_LIB" deviceset="IMU-BNO055" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1942,7 +1838,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="NAME" x="66.04" y="120.65" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="59.69" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="IMU1" gate="G$1" x="27.94" y="167.64" smashed="yes" grouprefs="IMU"/>
+<instance part="IMU1" gate="G$1" x="22.86" y="167.64" smashed="yes" grouprefs="IMU"/>
 <instance part="ENC2" gate="G$1" x="177.8" y="170.18" smashed="yes" grouprefs="ENCODER_XY"/>
 <instance part="ENC1" gate="G$1" x="177.8" y="132.08" smashed="yes" grouprefs="ENCODER_XY"/>
 <instance part="VIN" gate="G$1" x="22.86" y="114.3" smashed="yes" grouprefs="POWER">
@@ -1970,14 +1866,11 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="146.05" y="35.56" size="2.286" layer="94"/>
 <attribute name="SHEET" x="159.385" y="30.48" size="2.54" layer="94"/>
 </instance>
-<instance part="IMU2" gate="A" x="86.36" y="167.64" smashed="yes" grouprefs="IMU">
-<attribute name="NAME" x="80.01" y="180.975" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="149.86" size="1.778" layer="96"/>
+<instance part="IMU2" gate="A" x="76.2" y="167.64" smashed="yes" grouprefs="IMU">
+<attribute name="NAME" x="69.85" y="180.975" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="IMU3" gate="A" x="121.92" y="165.1" smashed="yes" grouprefs="IMU">
-<attribute name="NAME" x="115.57" y="175.895" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.57" y="154.94" size="1.778" layer="96"/>
-</instance>
+<instance part="U$1" gate="G$1" x="109.22" y="167.64" smashed="yes" grouprefs="IMU"/>
 </instances>
 <busses>
 </busses>
@@ -2156,8 +2049,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="IMU1" gate="G$1" pin="SCL"/>
-<wire x1="15.24" y1="162.56" x2="10.16" y2="162.56" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="10.16" y="162.56" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="10.16" y1="162.56" x2="5.08" y2="162.56" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="5.08" y="162.56" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="116.84" x2="-40.64" y2="116.84" width="0.1524" layer="91" grouprefs="PINOUT"/>
@@ -2166,13 +2059,13 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="IMU2" gate="A" pin="5"/>
-<wire x1="83.82" y1="167.64" x2="78.74" y2="167.64" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="78.74" y="167.64" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="73.66" y1="167.64" x2="68.58" y2="167.64" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="68.58" y="167.64" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
-<pinref part="IMU3" gate="A" pin="5"/>
-<wire x1="119.38" y1="162.56" x2="114.3" y2="162.56" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="114.3" y="162.56" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="93.98" y1="163.83" x2="88.9" y2="163.83" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="88.9" y="163.83" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<pinref part="U$1" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="PB_7" class="0">
@@ -2183,8 +2076,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="IMU1" gate="G$1" pin="SDA"/>
-<wire x1="15.24" y1="152.4" x2="10.16" y2="152.4" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="10.16" y="152.4" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="10.16" y1="152.4" x2="5.08" y2="152.4" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="5.08" y="152.4" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="114.3" x2="-40.64" y2="114.3" width="0.1524" layer="91" grouprefs="PINOUT"/>
@@ -2193,13 +2086,13 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="IMU2" gate="A" pin="6"/>
-<wire x1="83.82" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="78.74" y="165.1" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="73.66" y1="165.1" x2="68.58" y2="165.1" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="68.58" y="165.1" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
-<pinref part="IMU3" gate="A" pin="4"/>
-<wire x1="119.38" y1="165.1" x2="114.3" y2="165.1" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="114.3" y="165.1" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="93.98" y1="166.37" x2="88.9" y2="166.37" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="88.9" y="166.37" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<pinref part="U$1" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="PB_8" class="0">
@@ -2271,8 +2164,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="IMU1" gate="G$1" pin="VCC"/>
-<wire x1="15.24" y1="182.88" x2="10.16" y2="182.88" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="10.16" y="182.88" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="10.16" y1="182.88" x2="5.08" y2="182.88" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="5.08" y="182.88" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="101.6" x2="-40.64" y2="101.6" width="0.1524" layer="91" grouprefs="PINOUT"/>
@@ -2281,13 +2174,13 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="IMU2" gate="A" pin="1"/>
-<wire x1="83.82" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="78.74" y="177.8" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="73.66" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="68.58" y="177.8" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
-<pinref part="IMU3" gate="A" pin="2"/>
-<wire x1="119.38" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="114.3" y="170.18" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="93.98" y1="171.45" x2="88.9" y2="171.45" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="88.9" y="171.45" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<pinref part="U$1" gate="G$1" pin="3V3"/>
 </segment>
 </net>
 <net name="VB" class="0">
@@ -2379,14 +2272,14 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="81.28" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<pinref part="ENC1" gate="G$1" pin="SIG1"/>
-<wire x1="147.32" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
-<label x="144.78" y="132.08" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
-</segment>
-<segment>
 <wire x1="-25.4" y1="116.84" x2="-20.32" y2="116.84" width="0.1524" layer="91" grouprefs="PINOUT"/>
 <label x="-20.32" y="116.84" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="7"/>
+</segment>
+<segment>
+<pinref part="ENC1" gate="G$1" pin="SIG2"/>
+<wire x1="147.32" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
+<label x="144.78" y="124.46" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
 </segment>
 </net>
 <net name="PA_3" class="0">
@@ -2396,14 +2289,14 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="83.82" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<pinref part="ENC1" gate="G$1" pin="SIG2"/>
-<wire x1="147.32" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
-<label x="144.78" y="124.46" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
-</segment>
-<segment>
 <wire x1="-25.4" y1="119.38" x2="-20.32" y2="119.38" width="0.1524" layer="91" grouprefs="PINOUT"/>
 <label x="-20.32" y="119.38" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="8"/>
+</segment>
+<segment>
+<pinref part="ENC1" gate="G$1" pin="SIG1"/>
+<wire x1="147.32" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
+<label x="144.78" y="132.08" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
 </segment>
 </net>
 <net name="PA_4" class="0">
@@ -2564,18 +2457,13 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="IMU1" gate="G$1" pin="GND"/>
-<wire x1="15.24" y1="172.72" x2="10.16" y2="172.72" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="10.16" y="172.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="10.16" y1="172.72" x2="5.08" y2="172.72" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="5.08" y="172.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
 <pinref part="IMU2" gate="A" pin="2"/>
-<wire x1="83.82" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="78.74" y="175.26" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
-</segment>
-<segment>
-<pinref part="IMU3" gate="A" pin="3"/>
-<wire x1="119.38" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91" grouprefs="IMU"/>
-<label x="114.3" y="167.64" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<wire x1="73.66" y1="175.26" x2="68.58" y2="175.26" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="68.58" y="175.26" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
 <pinref part="ENC2" gate="G$1" pin="GND"/>
@@ -2606,6 +2494,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="ZX1" gate="G$1" pin="39"/>
 <wire x1="76.2" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91" grouprefs="STM32F103"/>
 <label x="81.28" y="111.76" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="168.91" x2="88.9" y2="168.91" width="0.1524" layer="91" grouprefs="IMU"/>
+<label x="88.9" y="168.91" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>

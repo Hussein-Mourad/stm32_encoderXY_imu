@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2448,13 +2448,13 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="NAME" x="-19.05" y="183.515" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-19.05" y="167.64" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="A" x="-33.02" y="127" smashed="yes" grouprefs="PINOUT">
-<attribute name="NAME" x="-39.37" y="153.035" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-39.37" y="96.52" size="1.778" layer="96"/>
+<instance part="JP1" gate="A" x="-38.1" y="114.3" smashed="yes" grouprefs="PINOUT">
+<attribute name="NAME" x="-44.45" y="140.335" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-44.45" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="A" x="-27.94" y="124.46" smashed="yes" rot="R180" grouprefs="PINOUT">
-<attribute name="NAME" x="-21.59" y="98.425" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-21.59" y="154.94" size="1.778" layer="96" rot="R180"/>
+<instance part="JP2" gate="A" x="-33.02" y="111.76" smashed="yes" rot="R180" grouprefs="PINOUT">
+<attribute name="NAME" x="-26.67" y="85.725" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.67" y="142.24" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-71.12" y="25.4" smashed="yes">
 <attribute name="DRAWING_NAME" x="146.05" y="40.64" size="2.54" layer="94"/>
@@ -2488,8 +2488,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="114.3" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="149.86" x2="-40.64" y2="149.86" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="149.86" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="137.16" x2="-45.72" y2="137.16" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="137.16" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
@@ -2500,8 +2500,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="111.76" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="147.32" x2="-40.64" y2="147.32" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="147.32" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="134.62" x2="-45.72" y2="134.62" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="134.62" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
@@ -2512,8 +2512,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="109.22" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="144.78" x2="-40.64" y2="144.78" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="144.78" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="132.08" x2="-45.72" y2="132.08" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="132.08" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
@@ -2524,8 +2524,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="106.68" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="142.24" x2="-40.64" y2="142.24" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="142.24" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="129.54" x2="-45.72" y2="129.54" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="129.54" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 </net>
@@ -2536,8 +2536,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="104.14" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="139.7" x2="-40.64" y2="139.7" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="139.7" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="127" x2="-45.72" y2="127" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="127" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
 </net>
@@ -2553,8 +2553,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="-20.32" y="180.34" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="SERIAL_1_3"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="137.16" x2="-40.64" y2="137.16" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="137.16" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="124.46" x2="-45.72" y2="124.46" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="124.46" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="6"/>
 </segment>
 </net>
@@ -2570,8 +2570,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="-20.32" y="177.8" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="SERIAL_1_3"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="134.62" x2="-40.64" y2="134.62" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="134.62" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="121.92" x2="-45.72" y2="121.92" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="121.92" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="7"/>
 </segment>
 </net>
@@ -2582,8 +2582,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="96.52" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="132.08" x2="-40.64" y2="132.08" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="132.08" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="119.38" x2="-45.72" y2="119.38" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="119.38" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="8"/>
 </segment>
 </net>
@@ -2594,8 +2594,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="93.98" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="129.54" x2="-40.64" y2="129.54" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="129.54" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="116.84" x2="-45.72" y2="116.84" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="116.84" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="9"/>
 </segment>
 </net>
@@ -2606,8 +2606,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="91.44" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="127" x2="-40.64" y2="127" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="127" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="114.3" x2="-45.72" y2="114.3" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="114.3" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="10"/>
 </segment>
 </net>
@@ -2618,8 +2618,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="88.9" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="124.46" x2="-40.64" y2="124.46" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="124.46" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="111.76" x2="-45.72" y2="111.76" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="111.76" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="11"/>
 </segment>
 </net>
@@ -2630,8 +2630,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="86.36" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="121.92" x2="-40.64" y2="121.92" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="121.92" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="109.22" x2="-45.72" y2="109.22" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="109.22" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="12"/>
 </segment>
 </net>
@@ -2642,8 +2642,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="83.82" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="119.38" x2="-40.64" y2="119.38" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="119.38" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="106.68" x2="-45.72" y2="106.68" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="106.68" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="13"/>
 </segment>
 </net>
@@ -2659,8 +2659,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="5.08" y="162.56" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="116.84" x2="-40.64" y2="116.84" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="116.84" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="104.14" x2="-45.72" y2="104.14" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="104.14" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="14"/>
 </segment>
 <segment>
@@ -2686,8 +2686,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="5.08" y="152.4" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="114.3" x2="-40.64" y2="114.3" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="114.3" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="101.6" x2="-45.72" y2="101.6" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="101.6" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="15"/>
 </segment>
 <segment>
@@ -2708,8 +2708,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="76.2" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="111.76" x2="-40.64" y2="111.76" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="111.76" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="99.06" x2="-45.72" y2="99.06" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="99.06" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="16"/>
 </segment>
 </net>
@@ -2720,8 +2720,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="50.8" y="73.66" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="109.22" x2="-40.64" y2="109.22" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="109.22" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="96.52" x2="-45.72" y2="96.52" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="96.52" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="17"/>
 </segment>
 </net>
@@ -2757,8 +2757,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="144.78" y="147.32" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="106.68" x2="-40.64" y2="106.68" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="106.68" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="93.98" x2="-45.72" y2="93.98" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="93.98" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="18"/>
 </segment>
 </net>
@@ -2774,8 +2774,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="5.08" y="182.88" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="IMU"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="101.6" x2="-40.64" y2="101.6" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="101.6" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="88.9" x2="-45.72" y2="88.9" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="88.9" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="20"/>
 </segment>
 <segment>
@@ -2796,8 +2796,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="66.04" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="101.6" x2="-20.32" y2="101.6" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="101.6" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="88.9" x2="-25.4" y2="88.9" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="88.9" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="1"/>
 </segment>
 </net>
@@ -2808,8 +2808,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="68.58" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="104.14" x2="-20.32" y2="104.14" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="104.14" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="91.44" x2="-25.4" y2="91.44" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="91.44" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="2"/>
 </segment>
 </net>
@@ -2820,8 +2820,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="71.12" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="106.68" x2="-20.32" y2="106.68" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="106.68" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="93.98" x2="-25.4" y2="93.98" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="93.98" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="3"/>
 </segment>
 </net>
@@ -2832,8 +2832,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="73.66" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="109.22" x2="-20.32" y2="109.22" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="109.22" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="96.52" x2="-25.4" y2="96.52" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="96.52" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
@@ -2844,8 +2844,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="76.2" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="111.76" x2="-20.32" y2="111.76" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="111.76" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="99.06" x2="-25.4" y2="99.06" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="99.06" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="5"/>
 </segment>
 <segment>
@@ -2861,8 +2861,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="78.74" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="114.3" x2="-20.32" y2="114.3" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="114.3" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="101.6" x2="-25.4" y2="101.6" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="101.6" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="6"/>
 </segment>
 <segment>
@@ -2878,14 +2878,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="81.28" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="116.84" x2="-20.32" y2="116.84" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="116.84" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="104.14" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="7"/>
-</segment>
-<segment>
-<pinref part="ENC1" gate="G$1" pin="SIG2"/>
-<wire x1="147.32" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
-<label x="144.78" y="124.46" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
 </segment>
 </net>
 <net name="PA_3" class="0">
@@ -2895,14 +2890,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="83.82" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="119.38" x2="-20.32" y2="119.38" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="119.38" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="106.68" x2="-25.4" y2="106.68" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="106.68" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="8"/>
-</segment>
-<segment>
-<pinref part="ENC1" gate="G$1" pin="SIG1"/>
-<wire x1="147.32" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
-<label x="144.78" y="132.08" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
 </segment>
 </net>
 <net name="PA_4" class="0">
@@ -2912,8 +2902,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="86.36" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="121.92" x2="-20.32" y2="121.92" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="121.92" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="109.22" x2="-25.4" y2="109.22" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="109.22" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="9"/>
 </segment>
 </net>
@@ -2924,8 +2914,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="88.9" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="124.46" x2="-20.32" y2="124.46" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="124.46" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="111.76" x2="-25.4" y2="111.76" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="111.76" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="10"/>
 </segment>
 </net>
@@ -2936,9 +2926,14 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="91.44" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="127" x2="-20.32" y2="127" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="127" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="114.3" x2="-25.4" y2="114.3" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="114.3" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="11"/>
+</segment>
+<segment>
+<pinref part="ENC1" gate="G$1" pin="SIG2"/>
+<wire x1="147.32" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
+<label x="144.78" y="124.46" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
 </segment>
 </net>
 <net name="PA_7" class="0">
@@ -2948,9 +2943,14 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="93.98" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="129.54" x2="-20.32" y2="129.54" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="129.54" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="116.84" x2="-25.4" y2="116.84" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="116.84" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="12"/>
+</segment>
+<segment>
+<pinref part="ENC1" gate="G$1" pin="SIG1"/>
+<wire x1="147.32" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91" grouprefs="ENCODER_XY"/>
+<label x="144.78" y="132.08" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ENCODER_XY"/>
 </segment>
 </net>
 <net name="PB_0" class="0">
@@ -2960,8 +2960,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="96.52" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="132.08" x2="-20.32" y2="132.08" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="132.08" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="119.38" x2="-25.4" y2="119.38" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="119.38" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="13"/>
 </segment>
 </net>
@@ -2972,8 +2972,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="99.06" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="134.62" x2="-20.32" y2="134.62" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="134.62" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="121.92" x2="-25.4" y2="121.92" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="121.92" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="14"/>
 </segment>
 </net>
@@ -2989,8 +2989,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="-40.64" y="180.34" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="SERIAL_1_3"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="137.16" x2="-20.32" y2="137.16" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="137.16" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="124.46" x2="-25.4" y2="124.46" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="124.46" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="15"/>
 </segment>
 </net>
@@ -3006,8 +3006,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="-40.64" y="177.8" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="SERIAL_1_3"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="139.7" x2="-20.32" y2="139.7" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="139.7" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="127" x2="-25.4" y2="127" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="127" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="16"/>
 </segment>
 </net>
@@ -3018,8 +3018,8 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="106.68" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="142.24" x2="-20.32" y2="142.24" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="142.24" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="129.54" x2="-25.4" y2="129.54" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="129.54" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="17"/>
 </segment>
 </net>
@@ -3030,25 +3030,25 @@ DIN A4, landscape with location and doc. field</description>
 <label x="81.28" y="109.22" size="1.27" layer="95" xref="yes" grouprefs="STM32F103"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="144.78" x2="-20.32" y2="144.78" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="144.78" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="132.08" x2="-25.4" y2="132.08" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="132.08" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="18"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="-35.56" y1="104.14" x2="-40.64" y2="104.14" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-40.64" y="104.14" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-40.64" y1="91.44" x2="-45.72" y2="91.44" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-45.72" y="91.44" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP1" gate="A" pin="19"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="149.86" x2="-20.32" y2="149.86" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="149.86" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="137.16" x2="-25.4" y2="137.16" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="137.16" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="20"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="147.32" x2="-20.32" y2="147.32" width="0.1524" layer="91" grouprefs="PINOUT"/>
-<label x="-20.32" y="147.32" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
+<wire x1="-30.48" y1="134.62" x2="-25.4" y2="134.62" width="0.1524" layer="91" grouprefs="PINOUT"/>
+<label x="-25.4" y="134.62" size="1.27" layer="95" xref="yes" grouprefs="PINOUT"/>
 <pinref part="JP2" gate="A" pin="19"/>
 </segment>
 <segment>
