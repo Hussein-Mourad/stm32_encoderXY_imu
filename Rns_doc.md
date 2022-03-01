@@ -19,7 +19,6 @@ PA_6, PA_7 (Timer 2)
 ### Imu:
 PB_6 (SCL), PB_7 (SDA)
 
-
-
+![diagram](./tmp-1.jpg)
 
 
